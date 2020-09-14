@@ -1,5 +1,6 @@
-source 'https://rubygems.org'
+# frozen_string_literal: true
 
+source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails'
@@ -34,9 +35,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
   gem 'byebug'
-  gem 'rspec-rails', '~> 3.7'
   gem 'capybara'
   gem 'database_cleaner'
+  gem 'rspec-rails', '~> 3.7'
 end
 
 group :development do
