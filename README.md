@@ -4,7 +4,7 @@
 2. Use `before_save`, `before_create`, and `before_validation`
 3. Understand when to use `before_validation` vs. `before_save`
 
-## Callbacks
+## Callbacks 
 
 Now that we are integrating `ActiveRecord` into Rails, we should note that
 we can make bits of code run whenever something happens in our model: like when
